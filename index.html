@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jscript.js"></script>
+</head>
+
+<body style="background-color:rgb(185, 185, 185)">
+    <br>
+    <br>
+    <div class="form-group form-inline">
+        <label id="labelInput">Filtering:</label>
+        <input type="text" placeholder="Type to Search" class="form-control" id='input'
+            onkeyup='searchTable()' />
+    </div>
+    <div class="overflow">
+        <table id='table' class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th width="5%" scope="col">Nomor</th>
+                    <th width="10%" scope="col">Name</th>
+                    <th width="20%" scope="col">Model</th>
+                    <th width="15%" scope="col">Manufacturer</th>
+                    <th width="10%" scope="col">Length</th>
+                    <th width="5%" scope="col">Crew</th>
+                    <th width="5%" scope="col">Passengers</th>
+                    <th width="10%" scope="col">Cargo Capacity</th>
+                    <th width="10%" scope="col">Consumables</th>
+                    <th width="10%" scope="col">Vehicle Class</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</body>
+
+</html>
